@@ -49,9 +49,9 @@ const dashfiScriptUrl = 'https://js.dashfi.dev/dashfi-analytics.js';
 
 // Inject the DashFi script
 injectScript(dashfiScriptUrl, function() {
-  log('DashFi Analytics script loaded successfully.');
+    log('DashFi Analytics script loaded successfully.');
     const result = callInWindow('dashAnalytics.init', data.CustomerId);
-  data.gtmOnSuccess();
+    data.gtmOnSuccess();
 }, function () {
     log('Failed to load DashFi Analytics script.');
     data.gtmOnFailure();
