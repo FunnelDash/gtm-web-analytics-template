@@ -1,3 +1,4 @@
-# gtm-web-analytics-template
+# DashFi Web Analytics GTM Template
+Host repository for the GTM template that supplies the tag for the dashFi Analytics script
 
-To be updated.
+Related google documentation: https://developers.google.com/tag-platform/tag-manager/templates/gallery

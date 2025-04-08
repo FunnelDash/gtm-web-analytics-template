@@ -1,0 +1,5 @@
+homepage: "https://www.dash.fi/"
+documentation: "https://help.dash.fi/category/379-ad-pay-protection"
+versions:
+  - sha: 379778ac72ad253a5e3dcb991a9cc1847c3a6a11
+    changeNotes: Initial release.
